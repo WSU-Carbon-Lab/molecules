@@ -2,6 +2,33 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360px" height="253px" viewBox="0 0 360 253" style="background-color: #ffffff00" version="1.1">
   <style>:root {
+  --h: #000000;
+  --c: #000000;
+  --n: #2144d9;
+  --o: #ff0d0d;
+  --s: #e1e100;
+  --p: #ff8000;
+  --f: #90e000;
+  --cl: #00e000;
+  --br: #a52a2a;
+  --i: #940094;
+  --bonds: #000000;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+  --h: #e0e0e0;
+  --c: #e0e0e0;
+  --n: #8fa3ff;
+  --o: #ff6666;
+  --s: #ffff00;
+  --p: #ffb366;
+  --f: #c3ff00;
+  --cl: #66ff66;
+  --br: #d47878;
+  --i: #d478d4;
+  --bonds: #ffffff;
+}}</style>
+  <style>:root {
   --c: #000000;
   --n: #2144d9;
   --o: #ff0d0d;
@@ -140,14 +167,14 @@
         C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 157.653 192.306)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         4</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 163.215 189.373)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 163.215 189.373)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         H</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 172.844 192.306)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 172.844 192.306)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         9</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -155.467 -40)" d="M 4545.66,3091.24 L 4550.56,3086.34 L 4557.25,3088.13 L 4605.42,3267.89 L 4593.83,3271 L 4545.66,3091.24 Z "/>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 109.482 166.021)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 109.482 166.021)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         H</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 119.111 168.954)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 119.111 168.954)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         3</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 124.673 166.021)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         C</text>
@@ -156,9 +183,9 @@
         C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 198.066 192.306)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         4</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 203.627 189.373)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 203.627 189.373)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         H</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 213.256 192.306)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 213.256 192.306)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         9</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -155.467 -40)" d="M 5498.15,3088.13 L 5504.84,3086.34 L 5509.74,3091.24 L 5459.75,3277.8 L 5448.16,3274.7 L 5498.15,3088.13 Z "/>
   <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 225.125 166.021)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
@@ -170,18 +197,18 @@
         C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 50.8338 112.66)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         11</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 61.9569 109.727)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 61.9569 109.727)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         H</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 71.5858 112.66)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 71.5858 112.66)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         23</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -155.467 -40)" d="M 3731.3,2352.77 L 3729.56,2359.27 L 3723.27,2361.69 L 3609.98,2259.68 L 3618.01,2250.76 L 3731.3,2352.77 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 275.611 109.727)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 285.24 112.66)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         11</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 296.363 109.727)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 296.363 109.727)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         H</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 305.992 112.66)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 305.992 112.66)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         23</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -155.467 -40)" d="M 6332.13,2361.69 L 6325.85,2359.27 L 6324.11,2352.77 L 6455.04,2234.88 L 6463.07,2243.79 L 6332.13,2361.69 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--o)" transform="matrix(0.0666667 0 0 0.0666667 93.1513 185.044)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
@@ -222,18 +249,18 @@
         C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 168.016 17.5561)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         4</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 173.577 14.6228)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 173.577 14.6228)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         H</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 183.206 17.5561)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 183.206 17.5561)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         9</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -155.467 -40)" d="M 4786.02,1023.88 L 4780.02,1027.34 L 4774.02,1023.88 L 4774.02,870.175 L 4786.02,870.175 L 4786.02,1023.88 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 120.016 43.2228)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 129.645 46.1561)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         2</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 135.206 43.2228)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 135.206 43.2228)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
         H</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 144.835 46.1561)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 144.835 46.1561)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
         5</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -155.467 -40)" d="M 4774.02,1023.88 L 4780.02,1027.34 L 4780.02,1034.27 L 4588.25,1144.99 L 4582.25,1134.59 L 4774.02,1023.88 Z "/>
 </svg>
