@@ -29,6 +29,33 @@
   --bonds: #ffffff;
 }}</style>
   <style>:root {
+  --h: #000000;
+  --c: #000000;
+  --n: #2144d9;
+  --o: #ff0d0d;
+  --s: #e1e100;
+  --p: #ff8000;
+  --f: #90e000;
+  --cl: #00e000;
+  --br: #a52a2a;
+  --i: #940094;
+  --bonds: #000000;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+  --h: #e0e0e0;
+  --c: #e0e0e0;
+  --n: #8fa3ff;
+  --o: #ff6666;
+  --s: #ffff00;
+  --p: #ffb366;
+  --f: #c3ff00;
+  --cl: #66ff66;
+  --br: #d47878;
+  --i: #d478d4;
+  --bonds: #ffffff;
+}}</style>
+  <style>:root {
   --c: #000000;
   --n: #2144d9;
   --o: #ff0d0d;
@@ -112,18 +139,18 @@ S</text>
 C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 12.5969 17.0784)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 4</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 18.1584 14.1451)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 18.1584 14.1451)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 H</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 27.7873 17.0784)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 27.7873 17.0784)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 9</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -66.2 -131.333)" d="M 1505.67,2382.8 L 1502.64,2389.03 L 1495.73,2389.53 L 1420.24,2278.03 L 1430.18,2271.3 L 1505.67,2382.8 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 5.80745 53.7651)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 15.4364 56.6985)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 2</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 20.9979 53.7651)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 20.9979 53.7651)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 H</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 30.6268 56.6985)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 30.6268 56.6985)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 5</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -66.2 -131.333)" d="M 1495.73,2389.53 L 1502.64,2389.03 L 1506.53,2394.77 L 1409.87,2593.82 L 1399.07,2588.58 L 1495.73,2389.53 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -66.2 -131.333)" d="M 2300.46,5098.84 L 2303.71,5092.94 L 2310.38,5092.09 L 2499.59,5371.56 L 2493.54,5384.02 L 2300.46,5098.84 Z "/>
@@ -132,18 +159,18 @@ H</text>
 C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 137.944 213.05)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 2</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 143.506 210.117)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 143.506 210.117)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 H</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 153.135 213.05)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 153.135 213.05)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 5</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -66.2 -131.333)" d="M 2846.59,5352.71 L 2839.68,5353.2 L 2835.8,5347.46 L 2935.57,5142 L 2946.36,5147.24 L 2846.59,5352.71 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 131.155 249.737)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 C</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 140.784 252.67)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 4</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 146.345 249.737)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 146.345 249.737)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 H</text>
-  <text x="0" y="0" stroke="none" fill="var(--h)" transform="matrix(0.0666667 0 0 0.0666667 155.974 252.67)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 155.974 252.67)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 9</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -66.2 -131.333)" d="M 2836.66,5359.43 L 2839.68,5353.2 L 2846.59,5352.71 L 2983.96,5555.61 L 2974.03,5562.34 L 2836.66,5359.43 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -66.2 -131.333)" d="M 1339.85,3838.04 L 1342.78,3844.04 L 1339.6,3850.04 L 1054.78,3850.04 L 1054.78,3838.04 L 1339.85,3838.04 Z "/>
