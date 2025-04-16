@@ -1,4 +1,4 @@
-name: Convert Chemical SVGs
+name: Convert Root SVGs
 
 on:
   push:
@@ -13,25 +13,24 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+      with:
+        fetch-depth: 0
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
-        
+
     - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install lxml
-        
+      run: pip install lxml
+
     - name: Convert SVGs
-      run: |
-        python chem_svg_converter.py -i . -o .
-      
+      run: python chem_svg_converter.py
+
     - name: Commit changes
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add chemical-structures/*.svg
-        git commit -m "Update SVGs with theme support" || echo "No changes to commit"
+        git add *.svg
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-convert SVGs for theme support"
         git push
