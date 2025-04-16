@@ -28,58 +28,6 @@
   --i: #d478d4;
   --bonds: #ffffff;
 }}</style>
-  <style>:root {
-  --h: #000000;
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --h: #e0e0e0;
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
-  <style>:root {
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -170.569 -11)" d="M 4247.6,1707.54 L 4259.2,1703.66 L 4295.85,1984.2 L 4289.8,1984.2 L 4282.96,1978.2 L 4247.6,1707.54 L 4247.6,1707.54 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -170.569 -11)" d="M 4198.58,1722.69 L 4210.48,1721.14 L 4238.14,1932.85 L 4226.24,1934.4 L 4198.58,1722.69 L 4198.58,1722.69 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -170.569 -11)" d="M 4259.2,1703.66 L 4247.6,1707.54 L 4092.3,1432.8 L 4095.8,1426.8 L 4100.44,1422.82 L 4259.2,1703.66 Z "/>
@@ -157,9 +105,9 @@
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -170.569 -11)" d="M 4175.6,762.527 L 4175.6,748.672 L 4425.2,892.672 L 4425.2,906.527 L 4175.6,762.527 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--o)" transform="matrix(0.0666667 0 0 0.0666667 135.885 44.5733)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 O</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 146.256 44.5733)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 146.256 44.5733)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 CH</text>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 165.514 47.5067)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 165.514 47.5067)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 3</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -170.569 -11)" d="M 4425.2,906.527 L 4425.2,892.672 L 4579.09,803.819 L 4585.09,814.211 L 4425.2,906.527 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--o)" transform="matrix(0.0666667 0 0 0.0666667 119.258 73.3733)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">

@@ -28,58 +28,6 @@
   --i: #d478d4;
   --bonds: #ffffff;
 }}</style>
-  <style>:root {
-  --h: #000000;
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --h: #e0e0e0;
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
-  <style>:root {
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 764.585,1720.04 L 776.585,1726.96 L 776.585,2008.04 L 764.585,2014.96 L 764.585,1720.04 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 816.425,1753.43 L 828.425,1753.43 L 828.425,1981.57 L 816.425,1981.57 L 816.425,1753.43 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 764.585,2014.96 L 776.585,2008.04 L 1020,2148.57 L 1020,2155.5 L 1014.69,2159.36 L 764.585,2014.96 Z "/>
@@ -249,22 +197,22 @@ H</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 4248.67,3943.96 L 4250.46,3937.27 L 4257.15,3935.47 L 4391.03,4069.35 L 4382.54,4077.84 L 4248.67,3943.96 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 3.58748 75.9569)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 C</text>
-  <text x="0" y="0" stroke="none" fill="var(--n)" transform="matrix(0.0666667 0 0 0.0666667 13.2164 75.9569)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 13.2164 75.9569)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 N</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 885.028,2644.64 L 887.169,2651.23 L 882.533,2656.38 L 698.607,2617.29 L 701.102,2605.55 L 885.028,2644.64 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 37.9299 98.2091)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 C</text>
-  <text x="0" y="0" stroke="none" fill="var(--n)" transform="matrix(0.0666667 0 0 0.0666667 47.5588 98.2091)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 47.5588 98.2091)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 N</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 882.533,2656.38 L 887.169,2651.23 L 893.946,2652.67 L 952.157,2831.83 L 940.745,2835.54 L 882.533,2656.38 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 360.86 122.305)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 C</text>
-  <text x="0" y="0" stroke="none" fill="var(--n)" transform="matrix(0.0666667 0 0 0.0666667 370.489 122.305)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 370.489 122.305)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 N</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 5540.55,3233.29 L 5538.41,3226.7 L 5543.05,3221.55 L 5729.98,3261.28 L 5727.48,3273.02 L 5540.55,3233.29 Z "/>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 326.518 100.053)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 C</text>
-  <text x="0" y="0" stroke="none" fill="var(--n)" transform="matrix(0.0666667 0 0 0.0666667 336.147 100.053)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 336.147 100.053)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 N</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -22.3333 -102)" d="M 5543.05,3221.55 L 5538.41,3226.7 L 5531.64,3225.26 L 5482.35,3073.56 L 5493.76,3069.85 L 5543.05,3221.55 Z "/>
 </svg>

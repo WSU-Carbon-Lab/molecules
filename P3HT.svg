@@ -28,58 +28,6 @@
   --i: #d478d4;
   --bonds: #ffffff;
 }}</style>
-  <style>:root {
-  --h: #000000;
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --h: #e0e0e0;
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
-  <style>:root {
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
   <text x="0" y="0" stroke="none" fill="var(--s)" transform="matrix(0.0666667 0 0 0.0666667 36.9707 59.36)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 S</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -216.569 -229)" d="M 3711.97,3809.57 L 3718.6,3808.4 L 3723.06,3814.32 L 3641.61,4080.39 L 3634.6,4082.8 L 3629.76,4078.12 L 3711.97,3809.57 Z "/>
@@ -97,7 +45,7 @@ S</text>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -216.569 -229)" d="M 4205.22,3929.89 L 4232.8,3929.4 "/>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -216.569 -229)" d="M 4232.8,3929.4 L 4239.4,4303.8 "/>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -216.569 -229)" d="M 4239.4,4303.8 L 4211.82,4304.29 "/>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 69.9733 60.9232)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 69.9733 60.9232)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 n</text>
   <text x="0" y="0" stroke="none" fill="var(--c)" transform="matrix(0.0666667 0 0 0.0666667 3.48009 14.76)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 C</text>

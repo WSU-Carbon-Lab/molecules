@@ -28,59 +28,7 @@
   --i: #d478d4;
   --bonds: #ffffff;
 }}</style>
-  <style>:root {
-  --h: #000000;
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --h: #e0e0e0;
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
-  <style>:root {
-  --c: #000000;
-  --n: #2144d9;
-  --o: #ff0d0d;
-  --s: #e1e100;
-  --p: #ff8000;
-  --f: #90e000;
-  --cl: #00e000;
-  --br: #a52a2a;
-  --i: #940094;
-  --bonds: #000000;
-}
-@media (prefers-color-scheme: dark) {
-:root {
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
-  --bonds: #ffffff;
-}}</style>
-  <text x="0" y="0" stroke="none" fill="var(--n)" transform="matrix(0.0666667 0 0 0.0666667 63.6522 62.84)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 63.6522 62.84)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 N</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 3194.6,2985.14 L 3206.6,2992.06 L 3206.6,3272.94 L 3200.6,3276.4 L 3194.6,3272.94 L 3194.6,2985.14 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 3200.6,3283.33 L 3200.6,3276.4 L 3206.6,3272.94 L 3450,3413.47 L 3450,3420.4 L 3444,3423.86 L 3200.6,3283.33 Z "/>
@@ -102,7 +50,7 @@ N</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 2945.2,3711.86 L 2957.2,3704.94 L 3200.6,3845.47 L 3200.6,3852.4 L 3194.6,3855.86 L 2945.2,3711.86 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 3000.04,3683.67 L 3006.04,3673.28 L 3203.6,3787.35 L 3197.6,3797.74 L 3000.04,3683.67 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 3206.6,3855.86 L 3200.6,3852.4 L 3200.6,3845.47 L 3444,3704.94 L 3450,3708.4 L 3450,3715.33 L 3206.6,3855.86 Z "/>
-  <text x="0" y="0" stroke="none" fill="var(--n)" transform="matrix(0.0666667 0 0 0.0666667 63.6522 158.827)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 63.6522 158.827)" font-style="normal" font-weight="normal" font-size="200px" font-family="Arial">
 N</text>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 3194.6,3855.86 L 3200.6,3852.4 L 3206.6,3855.86 L 3206.6,4136.94 L 3194.6,4143.86 L 3194.6,3855.86 Z "/>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 3194.6,4143.86 L 3206.6,4136.94 L 3355.92,4223.15 L 3349.92,4233.54 L 3194.6,4143.86 Z "/>
@@ -189,7 +137,7 @@ H</text>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 5530.96,3105 L 5557.5,3105 "/>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 5557.5,3105 L 5557.5,3465 "/>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 5557.5,3465 L 5530.96,3465 "/>
-  <text x="0" y="0" stroke="none" fill="#000000" transform="matrix(0.0666667 0 0 0.0666667 212.883 102.072)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
+  <text x="0" y="0" stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 212.883 102.072)" font-style="normal" font-weight="normal" font-size="150px" font-family="Arial">
 n</text>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 2764.04,3600 L 2737.5,3600 "/>
   <path stroke="var(--bonds)" stroke-width="12" fill="none" transform="matrix(0.0666667 0 0 0.0666667 -161.533 -132)" d="M 2737.5,3600 L 2737.5,3240 "/>
