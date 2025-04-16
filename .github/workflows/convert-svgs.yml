@@ -26,7 +26,7 @@ jobs:
         
     - name: Convert SVGs
       run: |
-        python chem_svg_converter.py -i chemical-structures -o chemical-structures
+        python chem_svg_converter.py -i . -o .
       
     - name: Commit changes
       run: |
