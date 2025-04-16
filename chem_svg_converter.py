@@ -13,12 +13,11 @@ CPK_COLORS = {
         "Cl": {"light": "#00e000", "dark": "#66ff66"},   # Chlorine
         "Br": {"light": "#a52a2a", "dark": "#d47878"},   # Bromine
         "I": {"light": "#940094", "dark": "#d478d4"},    # Iodine
-        "Metal": {"light": "#eb9d9d", "dark": "#d47878"} # Metals
     },
     "bonds": {"light": "#000000", "dark": "#ffffff"}
 }
 
-def convert_svg(svg_path, output_dir):
+def convert_svg(svg_path):
     parser = etree.XMLParser(remove_blank_text=True)
     tree = etree.parse(svg_path, parser)
     root = tree.getroot()
@@ -48,39 +47,29 @@ def convert_svg(svg_path, output_dir):
             if elem_symbol in CPK_COLORS["elements"]:
                 elem.set('fill', f'var(--{elem_symbol.lower()})')
                 
-                # Skip subscript numbers for elements
+                # Handle subscript numbers
                 next_sibling = elem.getnext()
                 if next_sibling is not None and next_sibling.tag.endswith('text'):
                     num_text = next_sibling.text.strip()
                     if num_text.isdigit():
                         next_sibling.set('fill', f'var(--{elem_symbol.lower()})')
         
-        # Process bonds and other paths
+        # Process bonds
         elif elem.tag.endswith('path'):
             if elem.get('fill', '') != 'none':
                 elem.set('fill', 'var(--bonds)')
             if elem.get('stroke', '') != 'none':
                 elem.set('stroke', 'var(--bonds)')
 
-    # Save output
-    filename = os.path.basename(svg_path)
-    output_path = os.path.join(output_dir, filename)
-    tree.write(output_path, pretty_print=True, 
-              xml_declaration=True, encoding='utf-8')
+    # Overwrite original file
+    tree.write(svg_path, pretty_print=True, 
+             xml_declaration=True, encoding='utf-8')
 
-def process_svgs(input_dir, output_dir):
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        
-    for fname in os.listdir(input_dir):
+def process_svgs():
+    for fname in os.listdir('.'):
         if fname.lower().endswith('.svg'):
-            convert_svg(os.path.join(input_dir, fname), output_dir)
+            convert_svg(fname)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Convert chemical SVGs to theme-aware formats')
-    parser.add_argument('-i', '--input', required=True, help='Input directory')
-    parser.add_argument('-o', '--output', required=True, help='Output directory')
-    args = parser.parse_args()
-    
-    process_svgs(args.input, args.output)
-    print(f"Converted SVGs saved to {args.output}")
+    process_svgs()
+    print("Converted all SVGs in current directory")
