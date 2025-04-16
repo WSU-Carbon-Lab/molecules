@@ -4,7 +4,8 @@ from lxml import etree
 
 CPK_COLORS = {
     "elements": {
-        "C": {"light": "#000000", "dark": "#e0e0e0"},   # Carbon
+        "H": {"light": "#000000", "dark": "#e0e0e0"},    # Hydrogen
+        "C": {"light": "#000000", "dark": "#e0e0e0"},    # Carbon
         "N": {"light": "#2144d9", "dark": "#8fa3ff"},    # Nitrogen
         "O": {"light": "#ff0d0d", "dark": "#ff6666"},    # Oxygen
         "S": {"light": "#e1e100", "dark": "#ffff00"},    # Sulfur
