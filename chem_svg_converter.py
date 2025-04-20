@@ -5,16 +5,16 @@ from lxml import etree
 #TODO: Update to correctly set the dark colors
 CPK_COLORS = {
     "elements": {
-        "H": {"light": "#000000", "dark": "#000000" }     #"dark": "#e0e0e0"},
-        "C": {"light": "#000000", "dark": "#000000"}    #"dark": "#e0e0e0"},
-        "N": {"light": "#2144d9", "dark": "#2144d9"}    #"dark": "#8fa3ff"},
-        "O": {"light": "#ff0d0d", "dark": "#ff0d0d"}    #"dark": "#ff6666"},
-        "S": {"light": "#e1e100", "dark": "#e1e100"}    #"dark": "#ffff00"},
-        "P": {"light": "#ff8000", "dark": "#ff8000"}    #"dark": "#ffb366"},
-        "F": {"light": "#90e000", "dark": "#90e000"}    #"dark": "#c3ff00"},
-        "Cl": {"light": "#00e000", "dark": "#00e000"}    #"dark": "#66ff66"},
-        "Br": {"light": "#a52a2a", "dark": "#a52a2a"}    #"dark": "#d47878"},
-        "I": {"light": "#940094", "dark": "#940094"}    #"dark": "#d478d4"},
+        "H": {"light": "#000000", "dark": "#000000"},     #"dark": "#e0e0e0"},
+        "C": {"light": "#000000", "dark": "#000000"},    #"dark": "#e0e0e0"},
+        "N": {"light": "#2144d9", "dark": "#2144d9"},    #"dark": "#8fa3ff"},
+        "O": {"light": "#ff0d0d", "dark": "#ff0d0d"},    #"dark": "#ff6666"},
+        "S": {"light": "#e1e100", "dark": "#e1e100"},    #"dark": "#ffff00"},
+        "P": {"light": "#ff8000", "dark": "#ff8000"},    #"dark": "#ffb366"},
+        "F": {"light": "#90e000", "dark": "#90e000"},    #"dark": "#c3ff00"},
+        "Cl": {"light": "#00e000", "dark": "#00e000"},    #"dark": "#66ff66"},
+        "Br": {"light": "#a52a2a", "dark": "#a52a2a"},    #"dark": "#d47878"},
+        "I": {"light": "#940094", "dark": "#940094"},    #"dark": "#d478d4"},
     },
     "bonds": {"light": "#000000", "dark": "#ffffff"}
 }
