@@ -16,16 +16,16 @@
 }
 @media (prefers-color-scheme: dark) {
 :root {
-  --h: #e0e0e0;
-  --c: #e0e0e0;
-  --n: #8fa3ff;
-  --o: #ff6666;
-  --s: #ffff00;
-  --p: #ffb366;
-  --f: #c3ff00;
-  --cl: #66ff66;
-  --br: #d47878;
-  --i: #d478d4;
+  --h: #000000;
+  --c: #000000;
+  --n: #2144d9;
+  --o: #ff0d0d;
+  --s: #e1e100;
+  --p: #ff8000;
+  --f: #90e000;
+  --cl: #00e000;
+  --br: #a52a2a;
+  --i: #940094;
   --bonds: #ffffff;
 }}</style>
   <path stroke="none" fill="var(--bonds)" transform="matrix(0.0666667 0 0 0.0666667 -150.533 -152)" d="M 3480.9,3138.88 L 3472,3142.2 L 3471.95,3130.41 L 3610.76,2893.6 L 3617.64,2905.6 L 3480.9,3138.88 Z "/>
